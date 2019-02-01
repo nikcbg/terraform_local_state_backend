@@ -28,6 +28,7 @@ File name                            | File description
 
 - Save and exit the `main.tf` file by executing `:wq!` command.
 - Execute `terraform init` to download the necessary plugins.
+- Execute `terraform plan` to create execution plan and see what resources will be created.
 - Execute `terraform apply` to create the new resources. 
 - Next if you execute `git status` you will see that new files were cretaed after you ran `terraform apply`:
 
