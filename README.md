@@ -41,7 +41,6 @@ File name                            | File description
 	  terraform.tfstate
 
     nothing added to commit but untracked files present (use "git add" to track)
-
     ```
 
 - Next you need to create `.gitignore` file and put the `.terraform/` and `terraform.tfstate` files in there. 
@@ -55,7 +54,6 @@ File name                            | File description
 	  main.tf
 
     nothing added to commit but untracked files present (use "git add" to track)
-
     ```
 
 - Next you can commite your changes to the GitHUb repository you created:
@@ -86,7 +84,6 @@ File name                            | File description
    remote: 
    To github.com:nikcbg/terraform_local_state_backend.git
    * [new branch]      newbranch -> newbranch
-  
  ```
   
 - Next go to GitHub and follow the prompts to create and merge the pull request.
