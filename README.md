@@ -58,9 +58,10 @@ File name                            | File description
 
     ```
 
-- Next you can commite your changes to teh GitHUb repository you created:
+- Next you can commite your changes to the GitHUb repository you created:
   - execute `git add .gitignore main.tf` command to add the files that will be commited.
   - execute `git commint -m "your comment here"` to commite the files to the newbranch, the output should display:
+  
   
   ```
   git commit -m "add file"
@@ -71,6 +72,7 @@ File name                            | File description
   ```
 - Next step is to push all the changes to the GitHub repository:
   - execute `git push origin newbranch` command to push your changes to GitHub, the output should display:
+  
   
   ```
   Counting objects: 4, done.
@@ -86,5 +88,6 @@ File name                            | File description
   * [new branch]      newbranch -> newbranch
   
   ```
+  
 - Next go to GitHub and follow the prompts to create and merge the pull request.
 
