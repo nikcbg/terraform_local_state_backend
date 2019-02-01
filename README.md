@@ -17,18 +17,20 @@ File name                            | File description
 - Go to the cloned repo on your computer: `cd terraform_local_state_backend`.
 - Create a new branch in the repo you just cloned by eaxecuting ` git checkout -b newbranch` command.
 - Create `main.tf` file by executing `vim man.tf` command and copy/paste the below code in `main.tf` file:
+
     ```
     resource "null_resource" "helloWorld" {
     provisioner "local-exec" {
         command = "echo hello world"
     }
-}
+   }
     ```
 
 - Save and exit the `main.tf` file by executing `:wq!` command.
 - Execute `terraform init` to download the necessary plugins.
 - Execute `terraform apply` to create the new resources. 
 - Next if you execute `git status` you will see that new files were cretaed after you ran `terraform apply`:
+
     ```
     On branch newbranch
     Untracked files:
@@ -44,6 +46,7 @@ File name                            | File description
 
 - Next you need to create `.gitignore` file and put the `.terraform/` and `terraform.tfstate` files in there. 
 - Next if you execute `git status` you will see that `.terraform/` and `terraform.tfstate` files are not displayed anymore:
+
     ```
     Untracked files:
     (use "git add <file>..." to include in what will be committed)
@@ -83,5 +86,5 @@ File name                            | File description
   * [new branch]      newbranch -> newbranch
   
   ```
-- Next go to GitHub and follow teh prompts to create and merge pull request.
+- Next go to GitHub and follow the prompts to create and merge the pull request.
 
