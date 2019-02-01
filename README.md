@@ -63,31 +63,31 @@ File name                            | File description
   - execute `git commint -m "your comment here"` to commite the files to the newbranch, the output should display:
   
   
- ```
-  git commit -m "add file"
-  [newbranch a518a82] add file
-  2 files changed, 8 insertions(+)
-  create mode 100644 .gitignore
-  create mode 100644 main.tf
- ```
+  ```
+   git commit -m "add file"
+   [newbranch a518a82] add file
+   2 files changed, 8 insertions(+)
+   create mode 100644 .gitignore
+   create mode 100644 main.tf
+  ```
 - Next step is to push all the changes to the GitHub repository:
   - execute `git push origin newbranch` command to push your changes to GitHub, the output should display:
   
   
- ```
-  Counting objects: 4, done.
-  Delta compression using up to 8 threads.
-  Compressing objects: 100% (3/3), done.
-  Writing objects: 100% (4/4), 452 bytes | 452.00 KiB/s, done.
-  Total 4 (delta 0), reused 0 (delta 0)
-  remote: 
-  remote: Create a pull request for 'newbranch' on GitHub by visiting:
-  remote:      https://github.com/nikcbg/terraform_local_state_backend/pull/new/newbranch
-  remote: 
-  To github.com:nikcbg/terraform_local_state_backend.git
-  * [new branch]      newbranch -> newbranch
+  ```
+   Counting objects: 4, done.
+   Delta compression using up to 8 threads.
+   Compressing objects: 100% (3/3), done.
+   Writing objects: 100% (4/4), 452 bytes | 452.00 KiB/s, done.
+   Total 4 (delta 0), reused 0 (delta 0)
+   remote: 
+   remote: Create a pull request for 'newbranch' on GitHub by visiting:
+   remote:      https://github.com/nikcbg/terraform_local_state_backend/pull/new/newbranch
+   remote: 
+   To github.com:nikcbg/terraform_local_state_backend.git
+   * [new branch]      newbranch -> newbranch
   
- ```
+  ```
   
 - Next go to GitHub and follow the prompts to create and merge the pull request.
 
